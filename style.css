@@ -1,0 +1,76 @@
+
+
+/*************************/
+/*        Fonts          */
+/*************************/
+@font-face {
+    font-family: 'misproject';
+    src: url('fonts/misproje-webfont.eot');
+    src: url('fonts/misproje-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/misproje-webfont.woff') format('woff'),
+         url('fonts/misproje-webfont.ttf') format('truetype'),
+         url('fonts/misproje-webfont.svg#UbuntuTitlingBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*************************/
+
+
+
+/*************************/
+/* universal tag styling */
+/*************************/
+html{
+	font-size:100%;
+	height:100%;
+}
+body{
+	
+	background: rgba(25,93,229,1);
+	
+	font-family:'UbuntuTitlingBold',arial,sans-serif;
+	height:100%;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+canvas{
+	cursor:url('images/shovel.png') 5 65,default;
+	margin:0 auto;
+	max-width:1240px;
+	width:100%;
+}
+/*************************/
+
+
+
+.canvas_wrapper{
+	background: rgb(89,220,247); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(89,220,247,1) 0%, rgba(25,93,229,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(89,220,247,1)), color-stop(100%,rgba(25,93,229,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(89,220,247,1) 0%,rgba(25,93,229,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(89,220,247,1) 0%,rgba(25,93,229,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(89,220,247,1) 0%,rgba(25,93,229,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(89,220,247,1) 0%,rgba(25,93,229,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59dcf7', endColorstr='#195de5',GradientType=0 ); /* IE6-9 */
+	
+}
+
+.copyright{
+	color:#FFF;
+	text-align:center;
+	font-family:arial,helvetica,sans-serif;
+	font-weight:bold;
+}
+
+.copyright a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+.copyright a:hover{
+	color:#FFF;
+	text-decoration:underline;
+}
